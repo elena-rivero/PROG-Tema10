@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Ejercicio1Scanner {
 	public static void main(String[] args) {
 		Scanner sc = null;
 		try {

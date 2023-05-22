@@ -14,6 +14,7 @@ public class Ejercicio1Buffered {
 		double suma = 0;
 		int contador = 0;
 		double media;
+		
 		try {
 			br = new BufferedReader(new FileReader("src\\ficheros\\ejercicio1\\NumerosReales.txt"));
 			linea = br.readLine();
@@ -30,8 +31,7 @@ public class Ejercicio1Buffered {
 			media = suma/contador;
 			System.out.println("Suma total: " + suma);
 			System.out.println("Media: " + media);
-			
-			
+						
 		} catch (FileNotFoundException e) {
 			System.out.println("El fichero no existe");
 			System.out.println(e.getMessage());
